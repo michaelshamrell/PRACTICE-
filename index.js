@@ -199,8 +199,14 @@ It turns them into the nearest whole number. Aka removing the decimals
 */
 
 //USING math.floor with mathrandom
-let randomNumber = Math.floor( Math.random() * 6 )
+let randomNumber = Math.floor( Math.random() * 6 ) + 1
 
 console.log(randomNumber)
 
 //This runs code between 0 and 5
+
+function rollDice() {
+  let randomNumber = Math.floor( Math.random() * 6 ) + 1
+  return randomNumber;
+}
+console.log(rollDice())
