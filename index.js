@@ -175,3 +175,11 @@ console.log(randomNumber)
 
 
 //Math.random() generates a random number that is between 0 and 1, not including one.
+
+//Create a dice function
+
+let randomNumber = Math.random() * 6
+console.log(randomNumber)
+
+// from 0 to 5.9999999
+
