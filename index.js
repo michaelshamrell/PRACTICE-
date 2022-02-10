@@ -183,3 +183,17 @@ console.log(randomNumber)
 
 // from 0 to 5.9999999
 
+// let randomNumber = Math.random() * 6
+
+let flooredNumber = Math.floor(3.45632)
+
+console.log(flooredNumber)
+
+
+/* 
+
+What does Math.floor() do to positive numbers? 
+
+Your answer: 
+It turns them into the nearest whole number. Aka removing the decimals
+*/
