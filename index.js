@@ -197,3 +197,10 @@ What does Math.floor() do to positive numbers?
 Your answer: 
 It turns them into the nearest whole number. Aka removing the decimals
 */
+
+//USING math.floor with mathrandom
+let randomNumber = Math.floor( Math.random() * 6 )
+
+console.log(randomNumber)
+
+//This runs code between 0 and 5
