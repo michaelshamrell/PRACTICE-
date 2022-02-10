@@ -130,3 +130,12 @@ for (let i = 0; i < messages.length; i += 1) {
   console.log(messages[i])
 }
 
+// Create a for loop that logs out all the cards in the array
+// Use cards.length to specify how long the loop should run
+
+let cards = [7, 3, 9]
+
+for (let i = 0; i < cards.length; i ++) {
+  //i ++ is the same as i += 1. 
+  console.log(cards[i])
+}
