@@ -166,3 +166,12 @@ function getTotalRaceTime() {
 let totalTime = getTotalRaceTime()
 
 console.log(totalTime)
+
+//Creating random numbers using math.random()
+
+let randomNumber = Math.random()
+
+console.log(randomNumber)
+
+
+//Math.random() generates a random number that is between 0 and 1, not including one.
