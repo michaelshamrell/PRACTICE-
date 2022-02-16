@@ -380,3 +380,15 @@ console.log(largeCountries)
 largeCountries.unshift("China")
 console.log(largeCountries)
 // ['China', 'India', 'USA', 'Indonesia', 'Pakistan']
+
+
+//NEW CHALLENGE PROMPT---------------
+
+// If it is Friday the 13th, log out this spooky face: 😱
+// Use the logical "AND operator" -> &&
+let dayOfMonth = 13
+let weekday = "Friday"
+
+if (dayOfMonth === 13 && weekday === "Friday") {
+  console.log("😱")
+}
