@@ -327,7 +327,7 @@ logData()
 let age = 15
 
 function ticketPricer() {
-  if (age <= 6) {
+  if (age < 6) {
     console.log("Free")
   } else if (age <= 17) {
     console.log("Child Discount")
@@ -340,3 +340,20 @@ function ticketPricer() {
   }
 };
 ticketPricer()
+
+///NEXT PRACTICE-------------------------------------------
+
+
+/* Use a for loop to log the following to the console:
+
+The 5 largest countries in the world:
+- China
+- India
+- United States
+- Indinesia
+- Pakistan
+*/
+let largeCountries = ["China","India","USA","Indonesia","Pakistan"]
+for (let i = 0; i < largeCountries.length; i += 1) {
+  console.log(largeCountries[i])
+}
