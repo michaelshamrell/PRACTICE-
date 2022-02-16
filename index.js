@@ -234,7 +234,7 @@ function generateCertificate() {
   console.log("Generating certificate.....")
 }
 
-//More Logic
+//More Logic and Using || and &&
 
 let hasSolvedChallenge = false
 let hasHintsLeft = false
@@ -246,4 +246,17 @@ if (hasSolvedChallenge === false && hasHintsLeft === false) {
 
 function showSolution() {
   console.log("Showing the solution...")
+}
+
+// Create two boolean variables, likesDocumentaries and likesStartups
+// Use an OR statement (||) to call recommendMovie() if either of those variables are true
+let likesDocumentaries = false
+let likesStartups = true
+
+if (likesDocumentaries === true || likesStartups === true) {
+  recommendMovie()
+}
+
+function recommendMovie() {
+  console.log("Hey, check out this new film we think you will like!")
 }
