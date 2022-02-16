@@ -233,3 +233,17 @@ if (hasCompletedCourse === true && givesCertificate === true) {
 function generateCertificate() {
   console.log("Generating certificate.....")
 }
+
+//More Logic
+
+let hasSolvedChallenge = false
+let hasHintsLeft = false
+
+if (hasSolvedChallenge === false && hasHintsLeft === false) {
+  showSolution()
+}
+
+
+function showSolution() {
+  console.log("Showing the solution...")
+}
