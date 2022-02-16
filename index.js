@@ -354,6 +354,29 @@ The 5 largest countries in the world:
 - Pakistan
 */
 let largeCountries = ["China","India","USA","Indonesia","Pakistan"]
+console.log("The Five Largest countries in the world")
 for (let i = 0; i < largeCountries.length; i += 1) {
   console.log(largeCountries[i])
 }
+//-------------------------next prompt
+
+// You need to help me fixup the largeCountries array so that 
+// China and Pakistan are added back into their respective places
+
+// Use push() & pop() and their counterparts unshift() & shift()
+// Google how to use unshift() and shift()
+
+let largeCountries = ["Tuvalu","India","USA","Indonesia","Monaco"]
+
+largeCountries.pop()
+console.log(largeCountries)
+// ['Tuvalu', 'India', 'USA', 'Indonesia']
+largeCountries.push("Pakistan")
+console.log(largeCountries)
+//['Tuvalu', 'India', 'USA', 'Indonesia', 'Pakistan']
+largeCountries.shift()
+console.log(largeCountries)
+//['India', 'USA', 'Indonesia', 'Pakistan']
+largeCountries.unshift("China")
+console.log(largeCountries)
+// ['China', 'India', 'USA', 'Indonesia', 'Pakistan']
