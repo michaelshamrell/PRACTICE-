@@ -210,3 +210,26 @@ function rollDice() {
   return randomNumber;
 }
 console.log(rollDice())
+
+
+//Using Objects and Defining "Flower"
+
+let flower = {
+  name: "Rose",
+  color: "Red",
+  height: "1 foot"
+}
+
+
+//Logical Operators
+
+let hasCompletedCourse = true
+let givesCertificate = true
+
+if (hasCompletedCourse === true && givesCertificate === true) {  
+      generateCertificate()
+}
+
+function generateCertificate() {
+  console.log("Generating certificate.....")
+}
