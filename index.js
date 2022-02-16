@@ -260,3 +260,19 @@ if (likesDocumentaries === true || likesStartups === true) {
 function recommendMovie() {
   console.log("Hey, check out this new film we think you will like!")
 }
+
+// Objects - store data in-depth - composite / complex data type
+// key-value pairs
+
+let course = {
+  title: "Learn CSS Grid for free",
+  lessons: 16,
+  creator: "Per",
+  length: 63,
+  level: 2,
+  tags: ["html", "css"]
+}
+
+console.log(course.length)
+console.log(course.creator)
+//etc.... DOT NOTATION FOR ITEMS INSIDE OBJECTS
