@@ -263,7 +263,6 @@ function recommendMovie() {
 
 // Objects - store data in-depth - composite / complex data type
 // key-value pairs
-
 let course = {
   title: "Learn CSS Grid for free",
   lessons: 16,
@@ -272,7 +271,22 @@ let course = {
   level: 2,
   tags: ["html", "css"]
 }
-
+//etc.... DOT NOTATION FOR ITEMS INSIDE OBJECTS
 console.log(course.length)
 console.log(course.creator)
-//etc.... DOT NOTATION FOR ITEMS INSIDE OBJECTS
+
+// Create an object that represents an airbnb castle listing.
+// It should contain at least one boolean, one string, one number, and one array
+// Log out at least two of the keys using the dot notation
+
+
+let castle = {
+  location: "London",
+  guards: false,
+  price: 190,
+  amenities: ["bathroom", "kitchen"]
+}
+
+console.log(castle.location)
+console.log(castle.amenities)
+console.log(castle.price)
